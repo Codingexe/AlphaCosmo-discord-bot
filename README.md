@@ -8,7 +8,7 @@ with, he will also delete your message and add some
 raction for make a response like
 ❌ and ✅ for make some votes.
 
-# What does he doo too?
+# What does he do too?
 
 There is too a clear command:
 - !clear numbre_of_messages_to_clear
