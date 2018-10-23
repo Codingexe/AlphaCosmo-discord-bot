@@ -52,6 +52,6 @@ class Main:
 
 class Connexion:
     try:
-        robot.run(process.env.BOT_TOKEN) # On démarre le robot grâce a sa clef d'accès, NE JAMAIS DIVULGUER
+        robot.run('INSERT YOUR TOKEN HERE') # On démarre le robot grâce a sa clef d'accès, NE JAMAIS DIVULGUER
     except Exception as e:
         print("The robot can't connect, verify your internet connection")
