@@ -1,0 +1,12 @@
+{
+  "name": "AlphaComos",
+  "description": "Bot with little game",
+  "version": "1.0.0",
+  "main": "bot.py",
+  "scripts": {
+    "start": "python bot.py"
+   },
+   "dependencies":{
+    "discord.py": "1.0.0",
+   }
+}
