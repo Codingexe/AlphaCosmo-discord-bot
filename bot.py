@@ -30,8 +30,6 @@ class Main:
             question = le_message[12:-1]
             await robot.delete_message(message)
             qa_embed = discord.Embed(title="QUESTION/ANSWER GAME", description="!startGame \"question\" for create a new game", color=0x00ff00)
-            qa_embed.add_field(name=" ", value=' ', inline=False)
-
             qa_embed.add_field(name="Question: ", value=question, inline=False)
             qa_embed.add_field(name="Question of: ", value=message.author, inline=False)
 
